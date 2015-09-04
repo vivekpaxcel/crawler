@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Product Information Management</title>
+<!-- Bootstrap Styles-->
+<link href="assets/css/bootstrap.css" rel="stylesheet" />
+<!-- FontAwesome Styles-->
+<link href="assets/css/font-awesome.css" rel="stylesheet" />
+<!-- Morris Chart Styles-->
+<!--<link href="assets/js/morris/morris-0.4.3.min.css" rel="stylesheet" />-->
+<!-- Custom Styles-->
+<link href="assets/css/custom-styles.css" rel="stylesheet" />
+
+<!-- custom scrollbar stylesheet -->
+<link rel="stylesheet" href="assets/css/scroll/jquery.mCustomScrollbar.css">
+</head>
+
+<body>
+<div id="wrapper" class="inner-page">
+<nav class="navbar navbar-default top-navbar topdivboxfixed" role="navigation">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+    <a href="javascript:void(0);" class="navbar-brand"><img src="assets/img/logo-pim2.png"></a> </div>
+  <div class="custombreadcrumb">
+     <ul class="nav">
+      <li><a  href="index.html"> Products </a></li>
+      <li class="dropdown"> <a href="promotion_add.html"  class="active"  >Promotions </a> </li>
+      <li><a  href="keywords.html" > Keywords</a></li>
+      <li><a  href="delisted.html"> Delisted Products</a></li>
+      <li><a  href="cat-rank.html"> Category Ranks</a></li>
+      <li><a  href="#"> Competition Analyis</a></li>
+    </ul>
+  </div>
+  <div class="clearfix"></div>
+  <div class="submenu">
+    <ul >
+      <li><a href="promotion_add.html" class="active"><i class="fa fa-plus"></i> Add New	</a></li>
+      <li><a href="track.html"><i class="fa fa-truck"></i> Track</a></li>
+      
+    </ul>
+  </div>
+</nav>
+<!--/. NAV TOP  --> 
+
+<!--- Top Three box --> 
+
+<!--- sidebar -->
+<div class=" sidebar-at-right" id="main">
+  <div id="content">
+    <div id="page-wrapper" class="pull-right" style="position: relative;">
+      <div id="page-inner">
+        
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="col-lg-12"> 
+            	<div class="panel panel-default crawler-panel">
+			        <div class="panel-heading">This Page is Disabled</div>
+				        <div class="panel-body">
+                        	<form class="form-inline form-inline-crawler">
+                              <div class="form-group col-md-4">
+                                <label for="nameId">Customer Name:</label>
+                                <select class="form-control">
+                                	<option>Customer Name</option>
+                                </select>
+                                
+                              </div>
+                               <div class="form-group col-md-4">
+                                <label for="nameId">City :</label>
+                                <select class="form-control">
+                                	<option>City</option>
+                                </select>
+                                
+                              </div>
+                               <div class="form-group col-md-4">
+                                <label for="nameId">Category:</label>
+                                <select class="form-control">
+                                	<option>Category</option>
+                                </select>
+                              </div>
+                               <div class="form-group col-md-4">
+                                <label for="nameId">Brand:</label>
+                                <select class="form-control">
+                                	<option>Brand</option>
+                                </select>
+                              </div>
+                               <div class="form-group col-md-4">
+                                <label for="nameId">URL of Promo Page :</label>
+                                <input type="text" class="form-control" id="nameId" placeholder="URL of Promo Page">
+                              </div>
+                               <div class="form-group col-md-4">
+                                <label for="nameId">URL of Landing Page:</label>
+                                <input type="text" class="form-control" id="nameId" placeholder="URL of Landing Page">
+                              </div>
+                              
+                               <div class="form-group col-md-4">
+                                <label for="nameId">Start Date:</label>
+                                <div class="cal-div">
+                                   <label class="cal" for="enddrivingDate"><i class="fa fa-calendar"></i></label>
+                                    <input type="text" id="enddrivingDate" readonly value="Select Date" size="16" class="">
+                                </div>
+                              </div>
+                               <div class="form-group col-md-4">
+                                <label for="nameId">End Date :</label>
+                                <div class="cal-div">
+                                   <label class="cal" for="enddrivingDate"><i class="fa fa-calendar"></i></label>
+                                    <input type="text" id="enddrivingDate" readonly value="Select Date" size="16" class="">
+                                </div>
+                              </div>
+                               <div class="form-group col-md-4">
+                                <label for="nameId">Promo Text:</label>
+                                <input type="text" class="form-control" id="nameId" placeholder="Promo Text">
+                              </div>
+                              
+                               <div class="form-group col-md-4">
+                                <label for="nameId">Banner Position:</label>
+                                <input type="text" class="form-control" id="nameId" placeholder="Banner Position">
+                              </div>
+                               <div class="form-group col-md-4">
+                                <label for="nameId">Promo Banner :</label>
+                                <input type="text" class="form-control" id="nameId" placeholder="Promo Banner">
+                              </div>
+                              <div class="clearfix"></div>
+                              <button type="submit" class="btn btn-submit">Add Promo</button>
+                              
+                              
+                            </form>
+                        
+                        </div>
+
+    			</div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /. WRAPPER  --> 
+<!-- JS Scripts--> 
+<!-- jQuery Js --> 
+<script src="assets/js/jquery-1.10.2.js"></script> 
+<!-- Bootstrap Js --> 
+<script src="assets/js/bootstrap.min.js"></script> 
+<!-- Metis Menu Js --> 
+<script src="assets/js/jquery.metisMenu.js"></script> 
+<!-- Custom Js --> 
+<script src="assets/js/custom.js"></script> 
+
+<!-- custom scrollbar plugin --> 
+<!--<script src="assets/css/scroll/jquery.mCustomScrollbar.concat.min.js"></script>--> 
+<script src="assets/css/scroll/jquery.mCustomScrollbar.js"></script> 
+<script src="assets/css/scroll/jquery.scrollupformenu.js"></script> 
+<script>
+	$(document).on('scroll',function(){
+	
+  		$("#separator img" ).css('margin','7% 0 0 4px;');
+		
+});
+
+</script>
+</body>
+</html>

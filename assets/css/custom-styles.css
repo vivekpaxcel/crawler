@@ -1153,6 +1153,55 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 .custom-content-inner .titlehead{margin: 0px 0px 20px 0px; padding: 0px; font-size:16px; color: #333; font-weight: bold;}
 
+.inner-page #main{margin-top:110px;}
+.inner-page #content{width:100%}
+.inner-page #main.sidebar-at-right #content{width:99%}
+.inner-page #main.use-sidebar.sidebar-at-right #content{width:82.22%}
+a.gray-link{color:#787878; font-size:14px;}
+a.orange-link{color:#ff9000; font-size:11px;}
+
+
+
+.submenu{border-bottom:1px solid rgba(0,0,0,0.20); padding:5px 0px; background:#fff;}
+.submenu ul{margin-bottom:0px; margin-left:50px;}
+.submenu ul li{list-style:none; display:inline-block;}
+.submenu ul li a{
+    color: #333;
+    display: block;
+    line-height: 1.42857;
+    padding: 3px 10px 5px;
+    white-space: nowrap;
+	font-size:13px;}
+.submenu ul li a i {
+    margin-right: 2px;
+}
+.submenu ul li a:hover,.submenu ul li a.active{text-decoration:none; background:#eee;}
+/*********************crawler-panel***********************/
+.crawler-panel .panel-heading{
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f6f6f6+100 */
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f6f6f6)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#f6f6f6 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%,#f6f6f6 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%,#f6f6f6 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffffff 0%,#f6f6f6 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+	color:#185373;
+	font-weight:bold;
+	font-size:14px;
+	text-transform:uppercase;
+	}
+.crawler-panel{border-radius:0px;}	
+.crawler-panel .panel-body{border-bottom:3px solid #ff9000}
+.form-inline-crawler .form-group{margin-bottom:10px;}
+.form-inline-crawler .form-control { float:left; width:62%}
+.form-inline-crawler label{float:left; width:38%; margin-top:10px; font-size:14px; color:#4a4a4a}
+.form-inline-crawler .form-group .cal-div{margin:0px;}
+
+.btn-submit{ background:#185373; border-radius:4px; box-shadow:0px 3px 0px 0px #ff9000; font-weight:bold; color:#fff; font-size:14px; padding:10px;}
+.btn-submit:hover{color:#FFFFFF; opacity:0.8}
+
 
 /*--==================================================
     modal box css end

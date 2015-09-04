@@ -1,0 +1,256 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Product Information Management</title>
+<!-- Bootstrap Styles-->
+<link href="assets/css/bootstrap.css" rel="stylesheet" />
+<!-- FontAwesome Styles-->
+<link href="assets/css/font-awesome.css" rel="stylesheet" />
+<!-- Morris Chart Styles-->
+<!--<link href="assets/js/morris/morris-0.4.3.min.css" rel="stylesheet" />-->
+<!-- Custom Styles-->
+<link href="assets/css/custom-styles.css" rel="stylesheet" />
+
+<!-- custom scrollbar stylesheet -->
+<link rel="stylesheet" href="assets/css/scroll/jquery.mCustomScrollbar.css">
+</head>
+
+<body>
+<div id="wrapper" class="inner-page">
+    <nav class="navbar navbar-default top-navbar topdivboxfixed" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse"> 
+            <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> 
+        </button>
+        <a href="javascript:void(0);" class="navbar-brand"><img src="assets/img/logo-pim2.png"></a> 
+     </div>
+      <div class="custombreadcrumb">
+    <ul class="nav">
+      <li><a  href="index.html" > Products </a></li>
+      <li class="dropdown"> <a href="promotion_add.html" class="active"  >Promotions </a> </li>
+      <li><a  href="keywords.html" > Keywords</a></li>
+      <li><a  href="delisted.html"> Delisted Products</a></li>
+      <li><a  href="cat-rank.html"> Category Ranks</a></li>
+      <li><a  href="#"> Competition Analyis</a></li>
+    </ul>
+  </div>
+  <div class="clearfix"></div>
+  <div class="submenu">
+    <ul >
+      <li><a href="promotion_add.html" ><i class="fa fa-plus"></i> Add New	</a></li>
+      <li><a href="track.html" class="active"><i class="fa fa-truck"></i> Track</a></li>
+      
+    </ul>
+  </div>
+    </nav>
+	<!--/. NAV TOP  -->
+    
+    <!--- Top Three box -->
+    <div class="col-md-12">
+    	
+    </div>
+<!--- sidebar -->
+<div class="use-sidebar sidebar-at-right" id="main">
+  <div id="sidebar">
+    <nav class="navbar-default navbar-side sidediv-fixed col-lg-2 " id="jquery-script-menu">
+      <div class="filterbox">
+        <h5>Filter Products By</h5>
+      </div>
+      <div class="sidebar-collapse content mCustomScrollbar">
+      
+      	<div class="bs-example">
+
+    <div class="tab-content">
+        <form>
+            	<div class="form-group ">
+                  <label >Customer</label>
+                  <select  class="form-control" >
+                    <option>--Select --</option>
+                  </select>
+            	</div>
+                <div class="form-group ">
+                  <label >Expected Status</label>
+                  <select  class="form-control" >
+                    <option>--Select --</option>
+                  </select>
+            	</div>
+                <div class="form-group ">
+                  <label >Accuracy</label>
+                  <select  class="form-control" >
+                    <option>--Select --</option>
+                  </select>
+            	</div>
+               
+                
+            
+            </form>
+        
+        
+       
+    </div>
+</div>
+      </div>
+     
+    </nav>
+  </div>
+  
+  <!--=================== for separator use only start=======================--> 
+  <a href="#" id="separator"><img src="assets/img/vertical-dot.png"></a> 
+  <!--=================== for separator use only end=========================-->
+  
+  <div id="content">
+    <div id="page-wrapper" class="pull-right" style="position: relative;">
+      
+      <div id="page-inner">
+      
+      		<div class="row1">
+            	<div class="col-lg-12 ">
+                	<div class="filterdiv ">
+                	<ul>
+                    	<li class="heading">Filter</li>
+                        <li>
+                        	<span class="filter-title">Color</span>
+                            <span class="filter-item"><a href="#">red</a></span>
+                            <a href="#"><i class="fa fa-times-circle"></i></a>
+                        </li>
+                        <li>
+                        	<span class="filter-title">Color</span>
+                            <span class="filter-item"><a href="#">red</a></span>
+                            <a href="#"><i class="fa fa-times-circle"></i></a>
+                        </li>
+                        <li>
+                        	<span class="filter-title">Color</span>
+                            <span class="filter-item"><a href="#">red</a></span>
+                            <a href="#"><i class="fa fa-times-circle"></i></a>
+                        </li>
+                    </ul>
+                    
+                
+              <div class="clearfix"></div>
+              
+              </div>
+                	
+                </div>
+            </div>
+      
+       
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="col-lg-12"> 
+              
+             
+             <!--- table -->
+              
+              <div class="table-responsive mCustomScrollbar ">
+                <table class="table table-hover table-bordered">
+                  <thead style="">
+                    <tr style="background: #f1f1f1; border-bottom:2px solid #dfdfdf;">
+                    
+                      <th class="">Customer</th>
+                      <th class="">Expected Status</th>
+                      <th class="">Accuracy</th>
+                      <th class="text-center">Planned Image</th>
+                      <th class=""> Displayed Image </th>
+                      <th class="">Banner Name </th>
+                      <th class="">Banner rank </th>
+                      <th class="">Landing Url</th>
+                      <th class="">Action</th>
+                      
+                    </tr>
+                  </thead>
+                  
+                  <tr>
+                  	<td>Amazone</td>
+                    <td></td>
+                    <td ></td>
+                    <td >32</td>
+                    <td>35</td>
+                    <td >Lay’s Chips <a href="#" class="gray-link pull-right"><i class="fa  fa-check-circle"></i></a></td>
+                    <td></td>
+                    <td >2(Expected 1) <a href="#" class="gray-link pull-right"><i class="fa fa-times"></i></a></td>
+                    <td><a href="#" class="orange-link">View Promo</a></td>
+                                  
+                 </tr>
+                 <tr>
+                  	<td>Big Basket</td>
+                    <td ></td>
+                    <td ></td>
+                    <td >32</td>
+                    <td >35</td>
+                    <td >Chips <a href="#" class="gray-link pull-right"><i class="fa  fa-check-circle"></i></a></td>
+                    <td ></td>
+                    <td >2(Expected 1) <a href="#" class="gray-link pull-right"><i class="fa fa-times"></i></a></td>
+                    <td><a href="#" class="orange-link">View Promo</a></td>
+                                
+                 </tr>
+                 <tr>
+                  	<td>Local banya</td>
+                    <td ></td>
+                    <td ></td>
+                    <td >32</td>
+                    <td >35</td>
+                    <td>Pepsi <a href="#" class="gray-link pull-right"><i class="fa  fa-check-circle"></i></a></td>
+                    <td></td>
+                    <td >2(Expected 1) <a href="#" class="gray-link pull-right"><i class="fa fa-times"></i></a></td>
+                    <td ><a href="#" class="orange-link">View Promo</a></td>                                    
+                 </tr>
+                  
+                </table>
+              </div>
+              <div class="row">
+              <div class="col-lg-12">
+              	<ul class="pagination pull-left">
+                  <li><a href="#">&laquo;</a></li>
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                  <li><a href="#">&raquo;</a></li>
+                </ul>
+                
+                <div class="pull-right">
+                	<a href="#" class="btn btn-default"><i class="fa fa-external-link-square"> Export </i></a>
+                </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /. WRAPPER  --> 
+<!-- JS Scripts--> 
+<!-- jQuery Js --> 
+<script src="assets/js/jquery-1.10.2.js"></script> 
+<!-- Bootstrap Js --> 
+<script src="assets/js/bootstrap.min.js"></script> 
+<!-- Metis Menu Js --> 
+<script src="assets/js/jquery.metisMenu.js"></script> 
+<!-- Custom Js --> 
+<script src="assets/js/custom.js"></script> 
+
+
+<!-- custom scrollbar plugin --> 
+<!--<script src="assets/css/scroll/jquery.mCustomScrollbar.concat.min.js"></script>--> 
+<script src="assets/css/scroll/jquery.mCustomScrollbar.js"></script>
+<script src="assets/css/scroll/jquery.scrollupformenu.js"></script>
+
+<script>
+	$(document).on('scroll',function(){
+	
+  		$("#separator img" ).css('margin','7% 0 0 4px;');
+});
+
+
+</script>
+  
+    
+    
+</body>
+</html>
