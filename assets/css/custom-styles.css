@@ -1157,6 +1157,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .inner-page #content{width:100%}
 .inner-page #main.sidebar-at-right #content{width:99%}
 .inner-page #main.use-sidebar.sidebar-at-right #content{width:82.22%}
+.pagination{margin:0px;}
 a.gray-link{color:#787878; font-size:14px;}
 a.orange-link{color:#ff9000; font-size:11px;}
 
